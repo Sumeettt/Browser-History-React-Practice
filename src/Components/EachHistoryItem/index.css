@@ -1,0 +1,93 @@
+.each-history-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  list-style-type: none;
+  width: 95%;
+}
+
+.time-website-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .time-website-container {
+    flex-direction: row;
+  }
+}
+
+.accessed-time {
+  color: #64748b;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.website-details-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .website-details-container {
+    align-items: center;
+  }
+}
+
+.website-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.website-logo {
+  height: 25px;
+  width: 25px;
+}
+@media screen and (max-width: 768px) {
+  .website-logo-container {
+    padding-top: 5px;
+  }
+}
+
+.website-name-url {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .website-name-url {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.website-title {
+  color: #64748b;
+  font-weight: bold;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .website-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.website-domain {
+  color: #64748b;
+}
+
+@media screen and (max-width: 768px) {
+  .website-domain {
+    margin-top: 0px;
+  }
+}
+
+.delete-button {
+  background-color: white;
+  border: none;
+}
